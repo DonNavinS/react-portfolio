@@ -52,6 +52,11 @@ code {
   row-gap: 60px;
 }
 
+.contact-message {
+  width: 50%;
+  height: 40px;
+}
+
 .footer {
   padding-top: 20px;
   background-color: #a1c59700;

@@ -9,6 +9,7 @@ import whatsHappeningLogo from "./assets/images/Whats-Happening-logo.jpg";
 import jestChallenge from "./assets/images/Jest-challenge.jpg";
 import SmartFix from "./assets/images/SmartFix.jpg";
 import noSQLAPI from "./assets/images/noSQL-API.jpg";
+import Contact from "./components/Contact";
 
 function App() {
   const pages = ["About me", "Projects", "Resume", "Contact"];
@@ -55,6 +56,7 @@ function App() {
           </div>
         )}
         {page === pages[2] && <Resume />}
+        {page === pages[3] && <Contact />}
       </div>
 
       <div>
