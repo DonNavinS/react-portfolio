@@ -11,6 +11,7 @@ function Nav(props) {
               onClick={() => {
                 changePage(pages[0]);
               }}
+              className="buttons"
             >
               About Me
             </button>
@@ -20,6 +21,7 @@ function Nav(props) {
               onClick={() => {
                 changePage(pages[1]);
               }}
+              className="buttons"
             >
               Projects
             </button>
@@ -29,6 +31,7 @@ function Nav(props) {
               onClick={() => {
                 changePage(pages[2]);
               }}
+              className="buttons"
             >
               Resume
             </button>
@@ -38,6 +41,7 @@ function Nav(props) {
               onClick={() => {
                 changePage(pages[3]);
               }}
+              className="buttons"
             >
               Contact
             </button>

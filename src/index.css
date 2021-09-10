@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #85dcb8;
 }
 
 code {
@@ -12,8 +13,15 @@ code {
     monospace;
 }
 
+.header {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #e27d60;
+}
+
 .navBar {
   display: flex;
+  justify-content: center;
   list-style-type: none;
 }
 
@@ -21,12 +29,30 @@ code {
   padding: 20px;
 }
 
-.Projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.buttons {
+  border-radius: 6px;
+  padding: 10px;
+  border: none;
 }
 
-.project-card {
-  padding: 30px;
+.buttons:hover {
+  background-color: #a1c597;
+  transition-duration: 0.5s;
+}
+
+.about-me-bio {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.Projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 60px;
+}
+
+.footer {
+  padding-top: 20px;
+  background-color: #a1c59700;
 }
