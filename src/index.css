@@ -16,7 +16,7 @@ code {
 .header {
   margin: 0 auto;
   width: 80%;
-  background-color: #e27d60;
+  background-color: #e27c60b2;
 }
 
 .navBar {
@@ -58,6 +58,6 @@ code {
 }
 
 .footer {
-  padding-top: 20px;
+  padding-top: 60px;
   background-color: #a1c59700;
 }

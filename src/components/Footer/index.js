@@ -6,13 +6,10 @@ function Footer() {
   return (
     <div className="footer">
       <a href="https://github.com/DonNavinS">
-        <img src={githubLogo} alt="Github" height="100px" width="170px" />
+        <img src={githubLogo} alt="Github" height="80px" width="120px" />
       </a>
       <a href="https://www.linkedin.com/in/don-navin-seneviratna/">
-        <img src={linkedInLogo} alt="LinkedIn" height="100px" width="100px" />
-      </a>
-      <a href="https://github.com/DonNavinS">
-        <img src={githubLogo} alt="github" height="100px" width="170px" />
+        <img src={linkedInLogo} alt="LinkedIn" height="80px" width="120px" />
       </a>
     </div>
   );

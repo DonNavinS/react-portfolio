@@ -46,11 +46,13 @@ function App() {
                 title="Team Member Profile Generator"
                 description="Nodejs CLI application that takes user input to create HTML webpage displaying team member profiles "
                 image={jestChallenge}
+                githubLink="https://github.com/DonNavinS/jest-challenge"
               />
               <Project
                 title="MongoDB Social Network"
                 description="Backend for a social networking app in which Users and their Thoughts are stored in MongoDB database via Express routes"
                 image={noSQLAPI}
+                githubLink="https://github.com/DonNavinS/noSQL-challenge"
               />
             </div>
           </div>
