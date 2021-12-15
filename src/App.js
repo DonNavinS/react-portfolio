@@ -10,6 +10,7 @@ import jestChallenge from "./assets/images/Jest-challenge.jpg";
 import SmartFix from "./assets/images/SmartFix.jpg";
 import noSQLAPI from "./assets/images/noSQL-API.jpg";
 import Contact from "./components/Contact";
+import ResumeImage from "./assets/images/Resume.jpg";
 
 function App() {
   const pages = ["About me", "Projects", "Resume", "Contact"];
@@ -57,7 +58,7 @@ function App() {
             </div>
           </div>
         )}
-        {page === pages[2] && <Resume />}
+        {page === pages[2] && <Resume iamge={ResumeImage} />}
         {page === pages[3] && <Contact />}
       </div>
 

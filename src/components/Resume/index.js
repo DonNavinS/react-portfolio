@@ -1,6 +1,5 @@
 import React from "react";
-import ResumeImage from "../../assets/images/Resume.jpg";
-function Resume() {
+function Resume(props) {
   return (
     <div>
       <h1 className="title">Navin Seneviratna Resume</h1>
@@ -8,7 +7,7 @@ function Resume() {
       <div className="resume-page">
         <img
           className="resume-image"
-          src={ResumeImage}
+          src={props.image}
           alt="Resume"
           width="40%"
         />
