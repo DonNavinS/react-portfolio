@@ -4,47 +4,47 @@ function Nav(props) {
   const { pages = [], changePage } = props;
   return (
     <div>
-      <nav className="nav">
+      <nav className="header">
         <ul className="navBar">
           <li className="navBarLinks">
-            <button
+            <span
               onClick={() => {
                 changePage(pages[0]);
               }}
               className="buttons"
             >
               About Me
-            </button>
+            </span>
           </li>
           <li className="navBarLinks">
-            <button
+            <span
               onClick={() => {
                 changePage(pages[1]);
               }}
               className="buttons"
             >
               Projects
-            </button>
+            </span>
           </li>
           <li className="navBarLinks">
-            <button
+            <span
               onClick={() => {
                 changePage(pages[2]);
               }}
               className="buttons"
             >
               Resume
-            </button>
+            </span>
           </li>
           <li className="navBarLinks">
-            <button
+            <span
               onClick={() => {
                 changePage(pages[3]);
               }}
               className="buttons"
             >
               Contact
-            </button>
+            </span>
           </li>
         </ul>
       </nav>

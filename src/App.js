@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import Project from "./components/Projects";
-import AboutMe from "./components/AboutMe";
+import AboutMe from "./components/About/index.js";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import whatsHappeningLogo from "./assets/images/Whats-Happening-logo.jpg";
@@ -26,7 +26,7 @@ function App() {
         {page === pages[0] && <AboutMe />}{" "}
         {page === pages[1] && (
           <div>
-            <h1>Projects</h1>
+            <h1 className="title">Projects</h1>
             <div className="Projects">
               <Project
                 title="What's Happening"
