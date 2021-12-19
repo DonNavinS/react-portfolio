@@ -58,7 +58,7 @@ function App() {
             </div>
           </div>
         )}
-        {page === pages[2] && <Resume iamge={ResumeImage} />}
+        {page === pages[2] && <Resume image={ResumeImage} />}
         {page === pages[3] && <Contact />}
       </div>
 
