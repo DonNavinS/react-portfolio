@@ -11,6 +11,7 @@ import SmartFix from "./assets/images/SmartFix.jpg";
 import noSQLAPI from "./assets/images/noSQL-API.jpg";
 import Contact from "./components/Contact";
 import ResumeImage from "./assets/images/Resume.jpg";
+import ResumePhoto from "./assets/images/Resume-Photo.jpg";
 
 function App() {
   const pages = ["About me", "Projects", "Resume", "Contact"];
@@ -24,7 +25,7 @@ function App() {
         </header>
       </div>
       <div>
-        {page === pages[0] && <AboutMe />}{" "}
+        {page === pages[0] && <AboutMe image={ResumePhoto} />}{" "}
         {page === pages[1] && (
           <div>
             <h1 className="title">Projects</h1>

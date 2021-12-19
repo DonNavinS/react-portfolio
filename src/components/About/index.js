@@ -1,13 +1,13 @@
 import React from "react";
 import "./about.css";
 
-function AboutMe() {
+function AboutMe(props) {
   return (
     <div>
       <h1 className="title">About Me</h1>
       <div className="about-me-bio">
         <div className="about-me-img">
-          <img src="https://via.placeholder.com/350" alt="Placeholder" />
+          <img src={props.image} alt="Navin Seneviratna" />
         </div>
         <div className="about-me-text">
           <p>
