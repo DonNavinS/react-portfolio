@@ -68,6 +68,11 @@ code {
   margin: 0 auto;
 }
 
+.about-me-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .Projects {
   display: grid;
   grid-template-columns: 1fr 1fr;

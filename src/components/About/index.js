@@ -7,7 +7,12 @@ function AboutMe(props) {
       <h1 className="title">About Me</h1>
       <div className="about-me-bio">
         <div className="about-me-img">
-          <img src={props.image} alt="Navin Seneviratna" />
+          <img
+            src={props.image}
+            width={"350px"}
+            height={"450px"}
+            alt="Navin Seneviratna"
+          />
         </div>
         <div className="about-me-text">
           <p>
