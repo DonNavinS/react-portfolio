@@ -14,7 +14,7 @@ function Resume(props) {
 
         <span className="buttons">
           <a
-            href="https://docs.google.com/document/d/1rKgj-soBzYyniWpa2LNr2MTB7lgWgBnh_DIzn87l4_g/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1qQnKdy296shqyjlnhHByQQ1G_MXXVm8D7ErG6WhUGiY/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="resume-link"
