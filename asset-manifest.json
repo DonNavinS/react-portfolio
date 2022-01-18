@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.1da8810b.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c12b455e.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c12b455e.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.b4a3d8fa.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b4a3d8fa.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.6fa8e5cf.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.6fa8e5cf.js.map",
     "static/js/2.43ca1957.chunk.js": "/react-portfolio/static/js/2.43ca1957.chunk.js",
@@ -13,16 +13,16 @@
     "static/css/main.1da8810b.chunk.css.map": "/react-portfolio/static/css/main.1da8810b.chunk.css.map",
     "static/js/2.43ca1957.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.43ca1957.chunk.js.LICENSE.txt",
     "static/media/Jest-challenge.2ef3ce95.jpg": "/react-portfolio/static/media/Jest-challenge.2ef3ce95.jpg",
+    "static/media/Rest-Rolo.a6878942.jpg": "/react-portfolio/static/media/Rest-Rolo.a6878942.jpg",
     "static/media/Resume-Photo.20698da5.jpg": "/react-portfolio/static/media/Resume-Photo.20698da5.jpg",
     "static/media/Resume.709e76c4.jpg": "/react-portfolio/static/media/Resume.709e76c4.jpg",
     "static/media/SmartFix.f20792d7.jpg": "/react-portfolio/static/media/SmartFix.f20792d7.jpg",
-    "static/media/Whats-Happening-logo.40b0b9c4.jpg": "/react-portfolio/static/media/Whats-Happening-logo.40b0b9c4.jpg",
-    "static/media/noSQL-API.534845a6.jpg": "/react-portfolio/static/media/noSQL-API.534845a6.jpg"
+    "static/media/Whats-Happening-logo.40b0b9c4.jpg": "/react-portfolio/static/media/Whats-Happening-logo.40b0b9c4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6fa8e5cf.js",
     "static/js/2.43ca1957.chunk.js",
     "static/css/main.1da8810b.chunk.css",
-    "static/js/main.c12b455e.chunk.js"
+    "static/js/main.b4a3d8fa.chunk.js"
   ]
 }
